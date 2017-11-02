@@ -1,0 +1,1 @@
+from monafrica.blueprints.blog.views import blog

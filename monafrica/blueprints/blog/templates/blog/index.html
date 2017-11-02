@@ -1,0 +1,51 @@
+{% extends 'layouts/app.html' %}
+{% import 'macros/items.html' as items %}
+{% import 'macros/form.html' as f with context %}
+
+{% block title %}
+    View Our Blog Posts
+{% endblock %}
+
+{% block meta_description %}
+   Our Blog Posts
+{% endblock %}
+
+{% block body %}
+
+    <h2>{{ title }}</h2>
+    <br>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th class="col-header">
+              Title
+            </th>
+            <th class="col-header">
+              Published
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for post in posts.items %}
+          <tr>
+            <td>
+                <a href="{{ url_for('blog.edit_post', id=post.id) }}">
+                <h4 class="media-heading">{{ post.title }}</h4>
+              </a>
+            </td>
+            <td>
+                <time class="from-now"
+                    data-datetime="{{ post.created_on }}">
+                {{ post.created_on }}
+              </time>
+            </td>
+
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+
+      {{ items.paginate(posts) }}
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'layouts/app.html' %}
+{% import 'macros/items.html' as items %}
+{% import 'macros/form.html' as f with context %}
+
+{% block title %}
+    Tech Gists
+{% endblock %}
+
+{% block meta_description %}
+   Our Blog Posts
+{% endblock %}
+
+{% block body %}
+
+    <h2>{{ title }}</h2>
+    <hr>
+
+  {% for post in posts.items %}
+      <div class="gists">
+      <a href="{{ url_for('blog.read_post', id=post.id) }}">
+            <h3>{{ post.title }}</h3>
+      </a>
+            <p>{{ post.content[:400] | safe }} ...</p>
+      </div>
+      <hr>
+  {% endfor %}
+
+     {{ items.paginate(posts) }}
+
+{% endblock %}

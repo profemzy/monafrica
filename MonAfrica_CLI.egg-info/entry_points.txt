@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        monafrica=cli.cli:cli
+    

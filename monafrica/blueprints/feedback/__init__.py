@@ -1,0 +1,1 @@
+from monafrica.blueprints.feedback.views import feedback

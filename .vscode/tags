@@ -1,0 +1,506 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AwareDateTime	../lib/util_sqlalchemy.py	/^class AwareDateTime(TypeDecorator):$/;"	kind:class	line:10
+AwareDateTime	../monafrica/blueprints/user/models.py	/^from lib.util_sqlalchemy import ResourceMixin, AwareDateTime$/;"	kind:namespace	line:15
+BeginPasswordResetForm	../monafrica/blueprints/user/forms.py	/^class BeginPasswordResetForm(Form):$/;"	kind:class	line:20
+Blueprint	../monafrica/blueprints/page/views.py	/^from flask import Blueprint, render_template$/;"	kind:namespace	line:1
+BooleanField	../monafrica/blueprints/admin/forms.py	/^from wtforms import SelectField, StringField, BooleanField$/;"	kind:namespace	line:4
+BulkDeleteForm	../monafrica/blueprints/admin/forms.py	/^class BulkDeleteForm(Form):$/;"	kind:class	line:16
+CELERY_ACCEPT_CONTENT	../config/settings.py	/^CELERY_ACCEPT_CONTENT = ['json']$/;"	kind:variable	line:20
+CELERY_BROKER_URL	../config/settings.py	/^CELERY_BROKER_URL = 'redis:\/\/:devpassword@redis:6379\/0'$/;"	kind:variable	line:18
+CELERY_REDIS_MAX_CONNECTIONS	../config/settings.py	/^CELERY_REDIS_MAX_CONNECTIONS = 5$/;"	kind:variable	line:23
+CELERY_RESULT_BACKEND	../config/settings.py	/^CELERY_RESULT_BACKEND = 'redis:\/\/:devpassword@redis:6379\/0'$/;"	kind:variable	line:19
+CELERY_RESULT_SERIALIZER	../config/settings.py	/^CELERY_RESULT_SERIALIZER = 'json'$/;"	kind:variable	line:22
+CELERY_TASK_LIST	../monafrica/app.py	/^CELERY_TASK_LIST = [$/;"	kind:variable	line:19
+CELERY_TASK_SERIALIZER	../config/settings.py	/^CELERY_TASK_SERIALIZER = 'json'$/;"	kind:variable	line:21
+CLI	../cli/cli.py	/^class CLI(click.MultiCommand):$/;"	kind:class	line:9
+Celery	../monafrica/app.py	/^from celery import Celery$/;"	kind:namespace	line:2
+ContactForm	../monafrica/blueprints/contact/forms.py	/^class ContactForm(Form):$/;"	kind:class	line:7
+ContactForm	../monafrica/blueprints/contact/views.py	/^from monafrica.blueprints.contact.forms import ContactForm$/;"	kind:namespace	line:10
+ContextTask	../monafrica/app.py	/^    class ContextTask(TaskBase):$/;"	kind:class	line:41
+CsrfProtect	../monafrica/extensions.py	/^from flask_wtf import CsrfProtect$/;"	kind:namespace	line:3
+DEBUG	../config/settings.py	/^DEBUG = True$/;"	kind:variable	line:3
+Dashboard	../monafrica/blueprints/admin/models.py	/^class Dashboard(object):$/;"	kind:class	line:6
+Dashboard	../monafrica/blueprints/admin/views.py	/^from monafrica.blueprints.admin.models import Dashboard$/;"	kind:namespace	line:11
+DataRequired	../monafrica/blueprints/admin/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:5
+DataRequired	../monafrica/blueprints/contact/forms.py	/^from wtforms.validators import DataRequired, Length$/;"	kind:namespace	line:4
+DataRequired	../monafrica/blueprints/feedback/forms.py	/^from wtforms.validators import DataRequired, Length$/;"	kind:namespace	line:4
+DataRequired	../monafrica/blueprints/user/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:3
+DateTime	../lib/util_sqlalchemy.py	/^from sqlalchemy import DateTime$/;"	kind:namespace	line:3
+DebugToolbarExtension	../monafrica/extensions.py	/^from flask_debugtoolbar import DebugToolbarExtension$/;"	kind:namespace	line:1
+Email	../monafrica/blueprints/user/forms.py	/^from wtforms_components import EmailField, Email, Unique$/;"	kind:namespace	line:4
+EmailField	../monafrica/blueprints/contact/forms.py	/^from wtforms_components import EmailField$/;"	kind:namespace	line:3
+EmailField	../monafrica/blueprints/feedback/forms.py	/^from wtforms_components import EmailField$/;"	kind:namespace	line:3
+EmailField	../monafrica/blueprints/user/forms.py	/^from wtforms_components import EmailField, Email, Unique$/;"	kind:namespace	line:4
+Faker	../cli/commands/cmd_add.py	/^from faker import Faker$/;"	kind:namespace	line:6
+FeedbackForm	../monafrica/blueprints/feedback/forms.py	/^class FeedbackForm(Form):$/;"	kind:class	line:7
+FeedbackForm	../monafrica/blueprints/feedback/views.py	/^from monafrica.blueprints.feedback.forms import FeedbackForm$/;"	kind:namespace	line:10
+Flask	../monafrica/app.py	/^from flask import Flask$/;"	kind:namespace	line:1
+Form	../lib/util_wtforms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:1
+Form	../monafrica/blueprints/admin/forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:3
+Form	../monafrica/blueprints/contact/forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:1
+Form	../monafrica/blueprints/feedback/forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:1
+Form	../monafrica/blueprints/user/forms.py	/^from flask_wtf import Form$/;"	kind:namespace	line:1
+HiddenField	../monafrica/blueprints/user/forms.py	/^from wtforms import HiddenField, StringField, PasswordField$/;"	kind:namespace	line:2
+Length	../monafrica/blueprints/admin/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:5
+Length	../monafrica/blueprints/contact/forms.py	/^from wtforms.validators import DataRequired, Length$/;"	kind:namespace	line:4
+Length	../monafrica/blueprints/feedback/forms.py	/^from wtforms.validators import DataRequired, Length$/;"	kind:namespace	line:4
+Length	../monafrica/blueprints/user/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:3
+LoginForm	../monafrica/blueprints/user/forms.py	/^class LoginForm(Form):$/;"	kind:class	line:12
+LoginManager	../monafrica/extensions.py	/^from flask_login import LoginManager$/;"	kind:namespace	line:5
+MAIL_DEFAULT_SENDER	../config/settings.py	/^MAIL_DEFAULT_SENDER = 'contact@monaafrica.com'$/;"	kind:variable	line:9
+MAIL_PASSWORD	../config/settings.py	/^MAIL_PASSWORD = 'awesomepassword'$/;"	kind:variable	line:15
+MAIL_PASSWORD	../instance/settings.py	/^MAIL_PASSWORD = 'Password@1981'$/;"	kind:variable	line:2
+MAIL_PORT	../config/settings.py	/^MAIL_PORT = 587$/;"	kind:variable	line:11
+MAIL_SERVER	../config/settings.py	/^MAIL_SERVER = 'smtp.gmail.com'$/;"	kind:variable	line:10
+MAIL_USERNAME	../config/settings.py	/^MAIL_USERNAME = 'you@gmail.com'$/;"	kind:variable	line:14
+MAIL_USERNAME	../instance/settings.py	/^MAIL_USERNAME = 'profemzy@gmail.com'$/;"	kind:variable	line:1
+MAIL_USE_SSL	../config/settings.py	/^MAIL_USE_SSL = False$/;"	kind:variable	line:13
+MAIL_USE_TLS	../config/settings.py	/^MAIL_USE_TLS = True$/;"	kind:variable	line:12
+Mail	../monafrica/extensions.py	/^from flask_mail import Mail$/;"	kind:namespace	line:2
+ModelForm	../lib/util_wtforms.py	/^class ModelForm(Form):$/;"	kind:class	line:4
+ModelForm	../monafrica/blueprints/admin/forms.py	/^from lib.util_wtforms import ModelForm, choices_from_dict$/;"	kind:namespace	line:8
+ModelForm	../monafrica/blueprints/user/forms.py	/^from lib.util_wtforms import ModelForm$/;"	kind:namespace	line:6
+Optional	../monafrica/blueprints/admin/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:5
+Optional	../monafrica/blueprints/user/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:3
+OrderedDict	../monafrica/blueprints/admin/forms.py	/^from collections import OrderedDict$/;"	kind:namespace	line:1
+OrderedDict	../monafrica/blueprints/user/models.py	/^from collections import OrderedDict$/;"	kind:namespace	line:2
+PasswordField	../monafrica/blueprints/user/forms.py	/^from wtforms import HiddenField, StringField, PasswordField$/;"	kind:namespace	line:2
+PasswordResetForm	../monafrica/blueprints/user/forms.py	/^class PasswordResetForm(Form):$/;"	kind:class	line:27
+REMEMBER_COOKIE_DURATION	../config/settings.py	/^REMEMBER_COOKIE_DURATION = timedelta(days=90)$/;"	kind:variable	line:33
+ROLE	../monafrica/blueprints/user/models.py	/^    ROLE = OrderedDict([$/;"	kind:variable	line:20
+Regexp	../monafrica/blueprints/admin/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:5
+Regexp	../monafrica/blueprints/user/forms.py	/^from wtforms.validators import DataRequired, Length, Optional, Regexp$/;"	kind:namespace	line:3
+ResourceMixin	../lib/util_sqlalchemy.py	/^class ResourceMixin(object):$/;"	kind:class	line:28
+ResourceMixin	../monafrica/blueprints/user/models.py	/^from lib.util_sqlalchemy import ResourceMixin, AwareDateTime$/;"	kind:namespace	line:15
+SCOPE	../monafrica/blueprints/admin/forms.py	/^    SCOPE = OrderedDict([$/;"	kind:variable	line:17
+SECRET_KEY	../config/settings.py	/^SECRET_KEY = 'Password@1$'$/;"	kind:variable	line:6
+SEED_ADMIN_EMAIL	../config/settings.py	/^SEED_ADMIN_EMAIL = 'profemzy@gmail.com'$/;"	kind:variable	line:31
+SEED_ADMIN_PASSWORD	../config/settings.py	/^SEED_ADMIN_PASSWORD = 'Password@1$'$/;"	kind:variable	line:32
+SERVER_NAME	../config/settings.py	/^SERVER_NAME = 'localhost:8000'$/;"	kind:variable	line:5
+SQLALCHEMY_DATABASE_URI	../config/settings.py	/^SQLALCHEMY_DATABASE_URI = db_uri$/;"	kind:variable	line:27
+SQLALCHEMY_TRACK_MODIFICATIONS	../config/settings.py	/^SQLALCHEMY_TRACK_MODIFICATIONS = False$/;"	kind:variable	line:28
+SQLAlchemy	../monafrica/extensions.py	/^from flask_sqlalchemy import SQLAlchemy$/;"	kind:namespace	line:4
+SearchForm	../monafrica/blueprints/admin/forms.py	/^class SearchForm(Form):$/;"	kind:class	line:12
+SelectField	../monafrica/blueprints/admin/forms.py	/^from wtforms import SelectField, StringField, BooleanField$/;"	kind:namespace	line:4
+SignupForm	../monafrica/blueprints/user/forms.py	/^class SignupForm(ModelForm):$/;"	kind:class	line:32
+StringField	../monafrica/blueprints/admin/forms.py	/^from wtforms import SelectField, StringField, BooleanField$/;"	kind:namespace	line:4
+StringField	../monafrica/blueprints/user/forms.py	/^from wtforms import HiddenField, StringField, PasswordField$/;"	kind:namespace	line:2
+TestContact	../monafrica/tests/contact/test_views.py	/^class TestContact(object):$/;"	kind:class	line:6
+TestContact	../monafrica/tests/feedback/test_views.py	/^class TestContact(object):$/;"	kind:class	line:6
+TestLogin	../monafrica/tests/user/test_views.py	/^class TestLogin(ViewTestMixin):$/;"	kind:class	line:7
+TestPage	../monafrica/tests/page/test_views.py	/^class TestPage(object):$/;"	kind:class	line:4
+TestPasswordReset	../monafrica/tests/user/test_views.py	/^class TestPasswordReset(ViewTestMixin):$/;"	kind:class	line:51
+TestSettings	../monafrica/tests/user/test_views.py	/^class TestSettings(ViewTestMixin):$/;"	kind:class	line:203
+TestSignup	../monafrica/tests/user/test_views.py	/^class TestSignup(ViewTestMixin):$/;"	kind:class	line:129
+TestTasks	../monafrica/tests/contact/test_tasks.py	/^class TestTasks(object):$/;"	kind:class	line:5
+TestTasks	../monafrica/tests/feedback/test_tasks.py	/^class TestTasks(object):$/;"	kind:class	line:5
+TestTasks	../monafrica/tests/user/test_tasks.py	/^class TestTasks(object):$/;"	kind:class	line:6
+TestUpdateCredentials	../monafrica/tests/user/test_views.py	/^class TestUpdateCredentials(ViewTestMixin):$/;"	kind:class	line:212
+TestUser	../monafrica/tests/user/test_models.py	/^class TestUser(object):$/;"	kind:class	line:4
+TextAreaField	../monafrica/blueprints/contact/forms.py	/^from wtforms import TextAreaField$/;"	kind:namespace	line:2
+TextAreaField	../monafrica/blueprints/feedback/forms.py	/^from wtforms import TextAreaField, TextField$/;"	kind:namespace	line:2
+TextField	../monafrica/blueprints/feedback/forms.py	/^from wtforms import TextAreaField, TextField$/;"	kind:namespace	line:2
+TimedJSONWebSignatureSerializer	../monafrica/blueprints/user/models.py	/^    TimedJSONWebSignatureSerializer$/;"	kind:namespace	line:13
+TypeDecorator	../lib/util_sqlalchemy.py	/^from sqlalchemy.types import TypeDecorator$/;"	kind:namespace	line:4
+URLSafeTimedSerializer	../monafrica/app.py	/^from itsdangerous import URLSafeTimedSerializer$/;"	kind:namespace	line:3
+URLSafeTimedSerializer	../monafrica/blueprints/user/models.py	/^    TimedJSONWebSignatureSerializer$/;"	kind:namespace	line:13
+Unique	../monafrica/blueprints/admin/forms.py	/^from wtforms_components import Unique$/;"	kind:namespace	line:6
+Unique	../monafrica/blueprints/user/forms.py	/^from wtforms_components import EmailField, Email, Unique$/;"	kind:namespace	line:4
+UpdateCredentials	../monafrica/blueprints/user/forms.py	/^class UpdateCredentials(ModelForm):$/;"	kind:class	line:58
+User	../cli/commands/cmd_add.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:10
+User	../cli/commands/cmd_db.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:7
+User	../monafrica/app.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:10
+User	../monafrica/blueprints/admin/forms.py	/^from monafrica.blueprints.user.models import db, User$/;"	kind:namespace	line:9
+User	../monafrica/blueprints/admin/models.py	/^from monafrica.blueprints.user.models import db, User$/;"	kind:namespace	line:3
+User	../monafrica/blueprints/admin/views.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:13
+User	../monafrica/blueprints/user/forms.py	/^from monafrica.blueprints.user.models import User, db$/;"	kind:namespace	line:7
+User	../monafrica/blueprints/user/models.py	/^class User(UserMixin, ResourceMixin, db.Model):$/;"	kind:class	line:19
+User	../monafrica/blueprints/user/tasks.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:3
+User	../monafrica/blueprints/user/validations.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:3
+User	../monafrica/blueprints/user/views.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:16
+User	../monafrica/tests/conftest.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:6
+User	../monafrica/tests/user/test_models.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:1
+User	../monafrica/tests/user/test_tasks.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:3
+User	../monafrica/tests/user/test_views.py	/^from monafrica.blueprints.user.models import User$/;"	kind:namespace	line:4
+UserForm	../monafrica/blueprints/admin/forms.py	/^class UserForm(ModelForm):$/;"	kind:class	line:26
+UserMixin	../monafrica/blueprints/user/models.py	/^from flask_login import UserMixin$/;"	kind:namespace	line:10
+ValidationError	../monafrica/blueprints/user/validations.py	/^from wtforms.validators import ValidationError$/;"	kind:namespace	line:1
+ViewTestMixin	../lib/tests.py	/^class ViewTestMixin(object):$/;"	kind:class	line:21
+ViewTestMixin	../monafrica/tests/user/test_views.py	/^from lib.tests import assert_status_with_message, ViewTestMixin$/;"	kind:namespace	line:3
+WelcomeForm	../monafrica/blueprints/user/forms.py	/^class WelcomeForm(ModelForm):$/;"	kind:class	line:44
+__call__	../monafrica/app.py	/^        def __call__(self, *args, **kwargs):$/;"	kind:member	line:44
+__init__	../lib/util_wtforms.py	/^    def __init__(self, obj=None, prefix='', **kwargs):$/;"	kind:member	line:15
+__init__	../monafrica/blueprints/user/models.py	/^    def __init__(self, **kwargs):$/;"	kind:member	line:45
+__init__.py	../cli/__init__.py	1;"	kind:file	line:1
+__init__.py	../cli/commands/__init__.py	1;"	kind:file	line:1
+__init__.py	../config/__init__.py	1;"	kind:file	line:1
+__init__.py	../instance/__init__.py	1;"	kind:file	line:1
+__init__.py	../lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/blueprints/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/blueprints/admin/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/blueprints/contact/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/blueprints/feedback/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/blueprints/page/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/blueprints/user/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/tests/contact/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/tests/feedback/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/tests/page/__init__.py	1;"	kind:file	line:1
+__init__.py	../monafrica/tests/user/__init__.py	1;"	kind:file	line:1
+__repr__	../lib/util_sqlalchemy.py	/^    def __repr__(self):$/;"	kind:member	line:24
+__str__	../lib/util_sqlalchemy.py	/^    def __str__(self):$/;"	kind:member	line:122
+__tablename__	../monafrica/blueprints/user/models.py	/^    __tablename__ = 'users'$/;"	kind:variable	line:25
+_bulk_insert	../cli/commands/cmd_add.py	/^def _bulk_insert(model, data, label):$/;"	kind:function	line:34
+_db	../monafrica/tests/conftest.py	/^from monafrica.extensions import db as _db$/;"	kind:namespace	line:5
+_group_and_count	../monafrica/blueprints/admin/models.py	/^    def _group_and_count(cls, model, field):$/;"	kind:member	line:17
+_log_status	../cli/commands/cmd_add.py	/^def _log_status(count, model_label):$/;"	kind:function	line:19
+_try_renderer_template	../lib/flask_mailplus.py	/^def _try_renderer_template(template_path, ext='txt', **kwargs):$/;"	kind:function	line:55
+abstract	../monafrica/app.py	/^        abstract = True$/;"	kind:variable	line:42
+active	../monafrica/blueprints/admin/forms.py	/^    active = BooleanField('Yes, allow this user to sign in')$/;"	kind:variable	line:43
+active	../monafrica/blueprints/user/models.py	/^    active = db.Column('is_active', db.Boolean(), nullable=False,$/;"	kind:variable	line:31
+admin	../monafrica/app.py	/^from monafrica.blueprints.admin import admin$/;"	kind:namespace	line:5
+admin	../monafrica/blueprints/admin/__init__.py	/^from monafrica.blueprints.admin.views import admin/;"	kind:namespace	line:1
+admin	../monafrica/blueprints/admin/views.py	/^admin = Blueprint('admin', __name__,$/;"	kind:variable	line:20
+all	../cli/commands/cmd_add.py	/^def all(ctx):$/;"	kind:function	line:141
+anonymous_required	../monafrica/blueprints/user/decorators.py	/^def anonymous_required(url='\/settings'):$/;"	kind:function	line:7
+anonymous_required	../monafrica/blueprints/user/views.py	/^from monafrica.blueprints.user.decorators import anonymous_required$/;"	kind:namespace	line:15
+app	../cli/commands/cmd_add.py	/^app = create_app()$/;"	kind:variable	line:13
+app	../cli/commands/cmd_db.py	/^app = create_app()$/;"	kind:variable	line:10
+app	../monafrica/tests/conftest.py	/^def app():$/;"	kind:function	line:10
+app.py	../monafrica/app.py	1;"	kind:file	line:1
+assert_status_with_message	../lib/tests.py	/^def assert_status_with_message(status_code=200, response=None, message=None):$/;"	kind:function	line:5
+assert_status_with_message	../monafrica/tests/contact/test_views.py	/^from lib.tests import assert_status_with_message$/;"	kind:namespace	line:3
+assert_status_with_message	../monafrica/tests/feedback/test_views.py	/^from lib.tests import assert_status_with_message$/;"	kind:namespace	line:3
+assert_status_with_message	../monafrica/tests/user/test_views.py	/^from lib.tests import assert_status_with_message, ViewTestMixin$/;"	kind:namespace	line:3
+authenticated	../monafrica/blueprints/user/models.py	/^    def authenticated(self, with_password=True, password=''):$/;"	kind:member	line:188
+authentication	../monafrica/app.py	/^def authentication(app, user_model):$/;"	kind:function	line:94
+before_request	../monafrica/blueprints/admin/views.py	/^def before_request():$/;"	kind:function	line:27
+begin_password_reset	../monafrica/blueprints/user/views.py	/^def begin_password_reset():$/;"	kind:function	line:73
+bulk_delete	../lib/util_sqlalchemy.py	/^    def bulk_delete(cls, ids):$/;"	kind:member	line:88
+celery	../monafrica/blueprints/contact/tasks.py	/^celery = create_celery_app()$/;"	kind:variable	line:4
+celery	../monafrica/blueprints/feedback/tasks.py	/^celery = create_celery_app()$/;"	kind:variable	line:4
+celery	../monafrica/blueprints/user/tasks.py	/^celery = create_celery_app()$/;"	kind:variable	line:5
+check_password_hash	../monafrica/blueprints/user/models.py	/^from werkzeug.security import generate_password_hash, check_password_hash$/;"	kind:namespace	line:8
+choices	../monafrica/blueprints/admin/forms.py	/^                        choices=choices_from_dict(SCOPE, prepend_blank=False))$/;"	kind:variable	line:23
+choices	../monafrica/blueprints/admin/forms.py	/^                       choices=choices_from_dict(User.ROLE,$/;"	kind:variable	line:40
+choices_from_dict	../lib/util_wtforms.py	/^def choices_from_dict(source, prepend_blank=True):$/;"	kind:function	line:22
+choices_from_dict	../monafrica/blueprints/admin/forms.py	/^from lib.util_wtforms import ModelForm, choices_from_dict$/;"	kind:namespace	line:8
+choices_from_list	../lib/util_wtforms.py	/^def choices_from_list(source, prepend_blank=True):$/;"	kind:function	line:57
+cli	../cli/cli.py	/^def cli():$/;"	kind:function	line:47
+cli	../cli/commands/cmd_add.py	/^def cli():$/;"	kind:function	line:58
+cli	../cli/commands/cmd_cov.py	/^def cli(path):$/;"	kind:function	line:8
+cli	../cli/commands/cmd_db.py	/^def cli():$/;"	kind:function	line:15
+cli	../cli/commands/cmd_flake8.py	/^def cli(skip_init, path):$/;"	kind:function	line:10
+cli	../cli/commands/cmd_test.py	/^def cli(path):$/;"	kind:function	line:9
+cli.py	../cli/cli.py	1;"	kind:file	line:1
+click	../cli/cli.py	/^import click$/;"	kind:namespace	line:3
+click	../cli/commands/cmd_add.py	/^import click$/;"	kind:namespace	line:1
+click	../cli/commands/cmd_cov.py	/^import click$/;"	kind:namespace	line:3
+click	../cli/commands/cmd_db.py	/^import click$/;"	kind:namespace	line:1
+click	../cli/commands/cmd_flake8.py	/^import click$/;"	kind:namespace	line:3
+click	../cli/commands/cmd_test.py	/^import click$/;"	kind:namespace	line:4
+client	../monafrica/tests/conftest.py	/^def client(app):$/;"	kind:function	line:36
+cmd_add.py	../cli/commands/cmd_add.py	1;"	kind:file	line:1
+cmd_cov.py	../cli/commands/cmd_cov.py	1;"	kind:file	line:1
+cmd_db.py	../cli/commands/cmd_db.py	1;"	kind:file	line:1
+cmd_flake8.py	../cli/commands/cmd_flake8.py	1;"	kind:file	line:1
+cmd_folder	../cli/cli.py	/^cmd_folder = os.path.join(os.path.dirname(__file__), 'commands')$/;"	kind:variable	line:5
+cmd_prefix	../cli/cli.py	/^cmd_prefix = 'cmd_'$/;"	kind:variable	line:6
+cmd_test.py	../cli/commands/cmd_test.py	1;"	kind:file	line:1
+conftest.py	../monafrica/tests/conftest.py	1;"	kind:file	line:1
+contact	../monafrica/app.py	/^from monafrica.blueprints.contact import contact$/;"	kind:namespace	line:7
+contact	../monafrica/blueprints/contact/__init__.py	/^from monafrica.blueprints.contact.views import contact$/;"	kind:namespace	line:1
+contact	../monafrica/blueprints/contact/views.py	/^contact = Blueprint('contact', __name__, template_folder='templates')$/;"	kind:variable	line:12
+create_app	../cli/commands/cmd_add.py	/^from monafrica.app import create_app$/;"	kind:namespace	line:8
+create_app	../cli/commands/cmd_db.py	/^from monafrica.app import create_app$/;"	kind:namespace	line:5
+create_app	../monafrica/app.py	/^def create_app(settings_override=None):$/;"	kind:function	line:52
+create_app	../monafrica/tests/conftest.py	/^from monafrica.app import create_app$/;"	kind:namespace	line:4
+create_celery_app	../monafrica/app.py	/^def create_celery_app(app=None):$/;"	kind:function	line:26
+create_celery_app	../monafrica/blueprints/contact/tasks.py	/^from monafrica.app import create_celery_app$/;"	kind:namespace	line:2
+create_celery_app	../monafrica/blueprints/feedback/tasks.py	/^from monafrica.app import create_celery_app$/;"	kind:namespace	line:2
+create_celery_app	../monafrica/blueprints/user/tasks.py	/^from monafrica.app import create_celery_app$/;"	kind:namespace	line:2
+create_database	../cli/commands/cmd_db.py	/^from sqlalchemy_utils import database_exists, create_database$/;"	kind:namespace	line:3
+created_on	../lib/util_sqlalchemy.py	/^    created_on = db.Column(AwareDateTime(),$/;"	kind:variable	line:30
+csrf	../monafrica/extensions.py	/^csrf = CsrfProtect()$/;"	kind:variable	line:9
+current_app	../monafrica/blueprints/user/models.py	/^from flask import current_app$/;"	kind:namespace	line:6
+current_password	../monafrica/blueprints/user/forms.py	/^    current_password = PasswordField('Current password',$/;"	kind:variable	line:59
+current_sign_in_ip	../monafrica/blueprints/user/models.py	/^    current_sign_in_ip = db.Column(db.String(45))$/;"	kind:variable	line:41
+current_sign_in_on	../monafrica/blueprints/user/models.py	/^    current_sign_in_on = db.Column(AwareDateTime())$/;"	kind:variable	line:40
+current_user	../monafrica/blueprints/admin/views.py	/^from flask_login import login_required, current_user$/;"	kind:namespace	line:8
+current_user	../monafrica/blueprints/contact/views.py	/^from flask_login import current_user$/;"	kind:namespace	line:8
+current_user	../monafrica/blueprints/feedback/views.py	/^from flask_login import current_user$/;"	kind:namespace	line:8
+current_user	../monafrica/blueprints/user/decorators.py	/^from flask_login import current_user$/;"	kind:namespace	line:4
+dashboard	../monafrica/blueprints/admin/views.py	/^def dashboard():$/;"	kind:function	line:34
+database_exists	../cli/commands/cmd_db.py	/^from sqlalchemy_utils import database_exists, create_database$/;"	kind:namespace	line:3
+datetime	../cli/commands/cmd_add.py	/^from datetime import datetime$/;"	kind:namespace	line:4
+datetime	../lib/util_datetime.py	/^import datetime$/;"	kind:namespace	line:1
+datetime	../lib/util_sqlalchemy.py	/^import datetime$/;"	kind:namespace	line:1
+datetime	../monafrica/blueprints/user/models.py	/^import datetime$/;"	kind:namespace	line:1
+db	../cli/commands/cmd_add.py	/^from monafrica.extensions import db$/;"	kind:namespace	line:9
+db	../cli/commands/cmd_db.py	/^from monafrica.extensions import db$/;"	kind:namespace	line:6
+db	../lib/util_sqlalchemy.py	/^from monafrica.extensions import db$/;"	kind:namespace	line:7
+db	../monafrica/blueprints/admin/forms.py	/^from monafrica.blueprints.user.models import db, User$/;"	kind:namespace	line:9
+db	../monafrica/blueprints/admin/models.py	/^from monafrica.blueprints.user.models import db, User$/;"	kind:namespace	line:3
+db	../monafrica/blueprints/user/forms.py	/^from monafrica.blueprints.user.models import User, db$/;"	kind:namespace	line:7
+db	../monafrica/blueprints/user/models.py	/^from monafrica.extensions import db$/;"	kind:namespace	line:16
+db	../monafrica/extensions.py	/^db = SQLAlchemy()$/;"	kind:variable	line:10
+db	../monafrica/tests/conftest.py	/^def db(app):$/;"	kind:function	line:47
+db_uri	../config/settings.py	/^db_uri = 'postgresql:\/\/monafrica:devpassword@postgres:5432\/monafrica'$/;"	kind:variable	line:26
+debug_toolbar	../monafrica/extensions.py	/^debug_toolbar = DebugToolbarExtension()$/;"	kind:variable	line:7
+decorated_function	../monafrica/blueprints/user/decorators.py	/^        def decorated_function(*args, **kwargs):$/;"	kind:function	line:17
+decorated_function	../monafrica/blueprints/user/decorators.py	/^        def decorated_function(*args, **kwargs):$/;"	kind:function	line:37
+decorator	../monafrica/blueprints/user/decorators.py	/^    def decorator(f):$/;"	kind:function	line:15
+decorator	../monafrica/blueprints/user/decorators.py	/^    def decorator(f):$/;"	kind:function	line:35
+decorators.py	../monafrica/blueprints/user/decorators.py	1;"	kind:file	line:1
+default	../lib/util_sqlalchemy.py	/^                           default=tzware_datetime)$/;"	kind:variable	line:31
+default	../lib/util_sqlalchemy.py	/^                           default=tzware_datetime,$/;"	kind:variable	line:33
+delete	../lib/util_sqlalchemy.py	/^    def delete(self):$/;"	kind:member	line:113
+deliver_contact_email	../monafrica/blueprints/contact/tasks.py	/^def deliver_contact_email(email, message):$/;"	kind:function	line:8
+deliver_contact_email	../monafrica/blueprints/contact/views.py	/^        from monafrica.blueprints.contact.tasks import deliver_contact_email$/;"	kind:namespace	line:22
+deliver_contact_email	../monafrica/tests/contact/test_tasks.py	/^from monafrica.blueprints.contact.tasks import deliver_contact_email$/;"	kind:namespace	line:2
+deliver_contact_email	../monafrica/tests/feedback/test_tasks.py	/^from monafrica.blueprints.contact.tasks import deliver_contact_email$/;"	kind:namespace	line:2
+deliver_feedback_email	../monafrica/blueprints/feedback/tasks.py	/^def deliver_feedback_email(name, email, message):$/;"	kind:function	line:8
+deliver_feedback_email	../monafrica/blueprints/feedback/views.py	/^        from monafrica.blueprints.feedback.tasks import deliver_feedback_email$/;"	kind:namespace	line:20
+deliver_password_reset_email	../monafrica/blueprints/user/tasks.py	/^def deliver_password_reset_email(user_id, reset_token):$/;"	kind:function	line:9
+deliver_password_reset_email	../monafrica/tests/user/test_tasks.py	/^from monafrica.blueprints.user.tasks import deliver_password_reset_email$/;"	kind:namespace	line:2
+deserialize_token	../monafrica/blueprints/user/models.py	/^    def deserialize_token(cls, token):$/;"	kind:member	line:82
+email	../monafrica/blueprints/contact/forms.py	/^    email = EmailField("What's your e-mail address?",$/;"	kind:variable	line:8
+email	../monafrica/blueprints/feedback/forms.py	/^    email = EmailField("What's your email address?",$/;"	kind:variable	line:10
+email	../monafrica/blueprints/user/forms.py	/^    email = EmailField(validators=[$/;"	kind:variable	line:33
+email	../monafrica/blueprints/user/forms.py	/^    email = EmailField(validators=[$/;"	kind:variable	line:64
+email	../monafrica/blueprints/user/models.py	/^    email = db.Column(db.String(255), unique=True, index=True, nullable=False,$/;"	kind:variable	line:34
+encrypt_password	../monafrica/blueprints/user/models.py	/^    def encrypt_password(cls, plaintext_password):$/;"	kind:member	line:64
+ensure_existing_password_matches	../monafrica/blueprints/user/forms.py	/^    ensure_existing_password_matches$/;"	kind:namespace	line:9
+ensure_existing_password_matches	../monafrica/blueprints/user/validations.py	/^def ensure_existing_password_matches(form, field):$/;"	kind:function	line:20
+ensure_identity_exists	../monafrica/blueprints/user/forms.py	/^    ensure_existing_password_matches$/;"	kind:namespace	line:9
+ensure_identity_exists	../monafrica/blueprints/user/validations.py	/^def ensure_identity_exists(form, field):$/;"	kind:function	line:6
+extensions	../monafrica/app.py	/^def extensions(app):$/;"	kind:function	line:78
+extensions.py	../monafrica/extensions.py	1;"	kind:file	line:1
+fake	../cli/commands/cmd_add.py	/^fake = Faker()$/;"	kind:variable	line:16
+faq	../monafrica/blueprints/page/views.py	/^def faq():$/;"	kind:function	line:22
+feedback	../monafrica/app.py	/^from monafrica.blueprints.feedback import feedback$/;"	kind:namespace	line:8
+feedback	../monafrica/blueprints/feedback/__init__.py	/^from monafrica.blueprints.feedback.views import feedback/;"	kind:namespace	line:1
+feedback	../monafrica/blueprints/feedback/views.py	/^feedback = Blueprint('feedback', __name__, template_folder='templates')$/;"	kind:variable	line:12
+find_by_identity	../monafrica/blueprints/user/models.py	/^    def find_by_identity(cls, identity):$/;"	kind:member	line:52
+flash	../monafrica/blueprints/user/decorators.py	/^from flask import flash, redirect$/;"	kind:namespace	line:3
+flask_mailplus.py	../lib/flask_mailplus.py	1;"	kind:file	line:1
+forms.py	../monafrica/blueprints/admin/forms.py	1;"	kind:file	line:1
+forms.py	../monafrica/blueprints/contact/forms.py	1;"	kind:file	line:1
+forms.py	../monafrica/blueprints/feedback/forms.py	1;"	kind:file	line:1
+forms.py	../monafrica/blueprints/user/forms.py	1;"	kind:file	line:1
+func	../monafrica/blueprints/admin/models.py	/^from sqlalchemy import func$/;"	kind:namespace	line:1
+generate_password_hash	../monafrica/blueprints/user/models.py	/^from werkzeug.security import generate_password_hash, check_password_hash$/;"	kind:namespace	line:8
+get_auth_token	../monafrica/blueprints/user/models.py	/^    def get_auth_token(self):$/;"	kind:member	line:170
+get_bulk_action_ids	../lib/util_sqlalchemy.py	/^    def get_bulk_action_ids(cls, scope, ids, omit_ids=[], query=''):$/;"	kind:member	line:56
+get_command	../cli/cli.py	/^    def get_command(self, ctx, name):$/;"	kind:member	line:27
+get_session	../monafrica/blueprints/admin/forms.py	/^            get_session=lambda: db.session$/;"	kind:variable	line:32
+get_session	../monafrica/blueprints/user/forms.py	/^            get_session=lambda: db.session$/;"	kind:variable	line:38
+get_session	../monafrica/blueprints/user/forms.py	/^            get_session=lambda: db.session$/;"	kind:variable	line:50
+get_session	../monafrica/blueprints/user/forms.py	/^            get_session=lambda: db.session$/;"	kind:variable	line:68
+group_and_count_users	../monafrica/blueprints/admin/models.py	/^    def group_and_count_users(cls):$/;"	kind:member	line:8
+help	../cli/commands/cmd_db.py	/^              help='Create a test db too?')$/;"	kind:variable	line:63
+help	../cli/commands/cmd_flake8.py	/^              help='Skip __init__.py files?')$/;"	kind:variable	line:8
+home	../monafrica/blueprints/page/views.py	/^def home():$/;"	kind:function	line:7
+id	../monafrica/blueprints/user/models.py	/^    id = db.Column(db.Integer, primary_key=True)$/;"	kind:variable	line:26
+identity	../monafrica/blueprints/user/forms.py	/^    identity = StringField('Username or email',$/;"	kind:variable	line:14
+identity	../monafrica/blueprints/user/forms.py	/^    identity = StringField('Username or email',$/;"	kind:variable	line:21
+impl	../lib/util_sqlalchemy.py	/^    impl = DateTime(timezone=True)$/;"	kind:variable	line:17
+include_package_data	../setup.py	/^    include_package_data=True,$/;"	kind:variable	line:7
+index	../monafrica/blueprints/contact/views.py	/^def index():$/;"	kind:function	line:16
+index	../monafrica/blueprints/feedback/views.py	/^def index():$/;"	kind:function	line:16
+init	../cli/commands/cmd_db.py	/^def init(with_testdb):$/;"	kind:function	line:23
+initialize_password_reset	../monafrica/blueprints/user/models.py	/^    def initialize_password_reset(cls, identity):$/;"	kind:member	line:100
+install_requires	../setup.py	/^    install_requires=[$/;"	kind:variable	line:8
+is_active	../monafrica/blueprints/user/models.py	/^    def is_active(self):$/;"	kind:member	line:161
+is_last_admin	../monafrica/blueprints/user/models.py	/^    def is_last_admin(cls, user, new_role, new_active):$/;"	kind:member	line:137
+last_sign_in_ip	../monafrica/blueprints/user/models.py	/^    last_sign_in_ip = db.Column(db.String(45))$/;"	kind:variable	line:43
+last_sign_in_on	../monafrica/blueprints/user/models.py	/^    last_sign_in_on = db.Column(AwareDateTime())$/;"	kind:variable	line:42
+list_commands	../cli/cli.py	/^    def list_commands(self, ctx):$/;"	kind:member	line:10
+load_token	../monafrica/app.py	/^    def load_token(token):$/;"	kind:function	line:110
+load_user	../monafrica/app.py	/^    def load_user(uid):$/;"	kind:function	line:106
+login	../lib/tests.py	/^    def login(self, identity='admin@local.host', password='password'):$/;"	kind:member	line:32
+login	../lib/tests.py	/^def login(client, username='', password=''):$/;"	kind:function	line:49
+login	../monafrica/blueprints/user/views.py	/^def login():$/;"	kind:function	line:30
+login_manager	../monafrica/extensions.py	/^login_manager = LoginManager()$/;"	kind:variable	line:11
+login_required	../monafrica/blueprints/admin/views.py	/^from flask_login import login_required, current_user$/;"	kind:namespace	line:8
+logout	../lib/tests.py	/^    def logout(self):$/;"	kind:member	line:40
+logout	../lib/tests.py	/^def logout(client):$/;"	kind:function	line:68
+logout	../monafrica/blueprints/user/views.py	/^def logout():$/;"	kind:function	line:65
+mail	../lib/flask_mailplus.py	/^from monafrica.extensions import mail$/;"	kind:namespace	line:3
+mail	../monafrica/extensions.py	/^mail = Mail()$/;"	kind:variable	line:8
+mail	../monafrica/tests/contact/test_tasks.py	/^from monafrica.extensions import mail$/;"	kind:namespace	line:1
+mail	../monafrica/tests/feedback/test_tasks.py	/^from monafrica.extensions import mail$/;"	kind:namespace	line:1
+mail	../monafrica/tests/user/test_tasks.py	/^from monafrica.extensions import mail$/;"	kind:namespace	line:1
+md5	../monafrica/blueprints/user/models.py	/^from hashlib import md5$/;"	kind:namespace	line:3
+message	../monafrica/blueprints/contact/forms.py	/^    message = TextAreaField("What's your question or issue?",$/;"	kind:variable	line:10
+message	../monafrica/blueprints/feedback/forms.py	/^    message = TextAreaField("What Feedback would you like to give?",$/;"	kind:variable	line:12
+models.py	../monafrica/blueprints/admin/models.py	1;"	kind:file	line:1
+models.py	../monafrica/blueprints/user/models.py	1;"	kind:file	line:1
+name	../monafrica/blueprints/feedback/forms.py	/^    name = TextField("What's your name?",$/;"	kind:variable	line:8
+name	../setup.py	/^    name='MonAfrica-CLI',$/;"	kind:variable	line:4
+next	../monafrica/blueprints/user/forms.py	/^    next = HiddenField()$/;"	kind:variable	line:13
+onupdate	../lib/util_sqlalchemy.py	/^                           onupdate=tzware_datetime)$/;"	kind:variable	line:34
+or_	../monafrica/blueprints/user/models.py	/^from sqlalchemy import or_$/;"	kind:namespace	line:7
+os	../cli/cli.py	/^import os$/;"	kind:namespace	line:1
+os	../cli/commands/cmd_test.py	/^import os$/;"	kind:namespace	line:1
+packages	../setup.py	/^    packages=['cli', 'cli.commands'],$/;"	kind:variable	line:6
+page	../monafrica/app.py	/^from monafrica.blueprints.page import page$/;"	kind:namespace	line:6
+page	../monafrica/blueprints/page/__init__.py	/^from monafrica.blueprints.page.views import page$/;"	kind:namespace	line:1
+page	../monafrica/blueprints/page/views.py	/^page = Blueprint('page', __name__, template_folder='templates')$/;"	kind:variable	line:3
+password	../monafrica/blueprints/user/forms.py	/^    password = PasswordField('Password', [DataRequired(), Length(8, 128)])$/;"	kind:variable	line:16
+password	../monafrica/blueprints/user/forms.py	/^    password = PasswordField('Password', [DataRequired(), Length(8, 128)])$/;"	kind:variable	line:29
+password	../monafrica/blueprints/user/forms.py	/^    password = PasswordField('Password', [DataRequired(), Length(8, 128)])$/;"	kind:variable	line:41
+password	../monafrica/blueprints/user/forms.py	/^    password = PasswordField('Password', [Optional(), Length(8, 128)])$/;"	kind:variable	line:71
+password	../monafrica/blueprints/user/models.py	/^    password = db.Column(db.String(128), nullable=False, server_default='')$/;"	kind:variable	line:36
+password_reset	../monafrica/blueprints/user/views.py	/^def password_reset():$/;"	kind:function	line:87
+prepend_blank	../monafrica/blueprints/admin/forms.py	/^                                                 prepend_blank=False))$/;"	kind:variable	line:41
+privacy	../monafrica/blueprints/page/views.py	/^def privacy():$/;"	kind:function	line:17
+process_bind_param	../lib/util_sqlalchemy.py	/^    def process_bind_param(self, value, dialect):$/;"	kind:member	line:19
+pytest	../lib/tests.py	/^import pytest$/;"	kind:namespace	line:1
+pytest	../monafrica/tests/conftest.py	/^import pytest$/;"	kind:namespace	line:1
+pytz	../lib/util_datetime.py	/^import pytz$/;"	kind:namespace	line:2
+pytz	../monafrica/blueprints/user/models.py	/^import pytz$/;"	kind:namespace	line:5
+q	../monafrica/blueprints/admin/forms.py	/^    q = StringField('Search terms', [Optional(), Length(1, 256)])$/;"	kind:variable	line:13
+random	../cli/commands/cmd_add.py	/^import random$/;"	kind:namespace	line:2
+redirect	../monafrica/blueprints/user/decorators.py	/^from flask import flash, redirect$/;"	kind:namespace	line:3
+render_template	../lib/flask_mailplus.py	/^from flask import render_template$/;"	kind:namespace	line:1
+render_template	../monafrica/blueprints/page/views.py	/^from flask import Blueprint, render_template$/;"	kind:namespace	line:1
+request	../lib/safe_next_url.py	/^from flask import request$/;"	kind:namespace	line:7
+reset	../cli/commands/cmd_db.py	/^def reset(ctx, with_testdb):$/;"	kind:function	line:65
+reset_token	../monafrica/blueprints/user/forms.py	/^    reset_token = HiddenField()$/;"	kind:variable	line:28
+role	../monafrica/blueprints/admin/forms.py	/^    role = SelectField('Privileges', [DataRequired()],$/;"	kind:variable	line:39
+role	../monafrica/blueprints/user/models.py	/^    role = db.Column(db.Enum(*ROLE, name='role_types', native_enum=False),$/;"	kind:variable	line:29
+role_required	../monafrica/blueprints/admin/views.py	/^from monafrica.blueprints.user.decorators import role_required$/;"	kind:namespace	line:12
+role_required	../monafrica/blueprints/user/decorators.py	/^def role_required(*roles):$/;"	kind:function	line:28
+safe_next_url	../lib/safe_next_url.py	/^def safe_next_url(target):$/;"	kind:function	line:10
+safe_next_url	../monafrica/blueprints/user/views.py	/^from lib.safe_next_url import safe_next_url$/;"	kind:namespace	line:14
+safe_next_url.py	../lib/safe_next_url.py	1;"	kind:file	line:1
+save	../lib/util_sqlalchemy.py	/^    def save(self):$/;"	kind:member	line:102
+scope	../monafrica/blueprints/admin/forms.py	/^    scope = SelectField('Privileges', [DataRequired()],$/;"	kind:variable	line:22
+search	../monafrica/blueprints/user/models.py	/^    def search(cls, query):$/;"	kind:member	line:119
+seed	../cli/commands/cmd_db.py	/^def seed():$/;"	kind:function	line:43
+send_template_message	../lib/flask_mailplus.py	/^def send_template_message(template=None, ctx=None, *args, **kwargs):$/;"	kind:function	line:6
+send_template_message	../monafrica/blueprints/contact/tasks.py	/^from lib.flask_mailplus import send_template_message$/;"	kind:namespace	line:1
+send_template_message	../monafrica/blueprints/feedback/tasks.py	/^from lib.flask_mailplus import send_template_message$/;"	kind:namespace	line:1
+send_template_message	../monafrica/blueprints/user/tasks.py	/^from lib.flask_mailplus import send_template_message$/;"	kind:namespace	line:1
+serialize_token	../monafrica/blueprints/user/models.py	/^    def serialize_token(self, expiration=3600):$/;"	kind:member	line:203
+server_default	../monafrica/blueprints/user/models.py	/^                       server_default='1')$/;"	kind:variable	line:32
+server_default	../monafrica/blueprints/user/models.py	/^                      server_default='')$/;"	kind:variable	line:35
+session	../monafrica/tests/conftest.py	/^def session(db):$/;"	kind:function	line:74
+set_common_fixtures	../lib/tests.py	/^    def set_common_fixtures(self, session, client):$/;"	kind:member	line:28
+settings	../monafrica/blueprints/user/views.py	/^def settings():$/;"	kind:function	line:149
+settings	../monafrica/tests/conftest.py	/^from config import settings$/;"	kind:namespace	line:3
+settings.py	../config/settings.py	1;"	kind:file	line:1
+settings.py	../instance/settings.py	1;"	kind:file	line:1
+setup	../setup.py	/^from setuptools import setup$/;"	kind:namespace	line:1
+setup.py	../setup.py	1;"	kind:file	line:1
+sign_in_count	../monafrica/blueprints/user/models.py	/^    sign_in_count = db.Column(db.Integer, nullable=False, default=0)$/;"	kind:variable	line:39
+signup	../monafrica/blueprints/user/views.py	/^def signup():$/;"	kind:function	line:111
+sort_by	../lib/util_sqlalchemy.py	/^    def sort_by(cls, field, direction):$/;"	kind:member	line:37
+subprocess	../cli/commands/cmd_cov.py	/^import subprocess$/;"	kind:namespace	line:1
+subprocess	../cli/commands/cmd_flake8.py	/^import subprocess$/;"	kind:namespace	line:1
+subprocess	../cli/commands/cmd_test.py	/^import subprocess$/;"	kind:namespace	line:2
+tasks.py	../monafrica/blueprints/contact/tasks.py	1;"	kind:file	line:1
+tasks.py	../monafrica/blueprints/feedback/tasks.py	1;"	kind:file	line:1
+tasks.py	../monafrica/blueprints/user/tasks.py	1;"	kind:file	line:1
+terms	../monafrica/blueprints/page/views.py	/^def terms():$/;"	kind:function	line:12
+test_begin_password_reset	../monafrica/tests/user/test_views.py	/^    def test_begin_password_reset(self):$/;"	kind:member	line:86
+test_begin_password_reset_as_logged_in	../monafrica/tests/user/test_views.py	/^    def test_begin_password_reset_as_logged_in(self):$/;"	kind:member	line:62
+test_begin_password_reset_fail	../monafrica/tests/user/test_views.py	/^    def test_begin_password_reset_fail(self):$/;"	kind:member	line:78
+test_begin_password_reset_page	../monafrica/tests/user/test_views.py	/^    def test_begin_password_reset_page(self):$/;"	kind:member	line:52
+test_begin_signup_fail	../monafrica/tests/user/test_views.py	/^    def test_begin_signup_fail(self):$/;"	kind:member	line:151
+test_begin_signup_fail_logged_in	../monafrica/tests/user/test_views.py	/^    def test_begin_signup_fail_logged_in(self, users):$/;"	kind:member	line:143
+test_begin_update_credentials_email_change	../monafrica/tests/user/test_views.py	/^    def test_begin_update_credentials_email_change(self):$/;"	kind:member	line:243
+test_begin_update_credentials_email_password	../monafrica/tests/user/test_views.py	/^    def test_begin_update_credentials_email_password(self):$/;"	kind:member	line:282
+test_begin_update_credentials_existing_email	../monafrica/tests/user/test_views.py	/^    def test_begin_update_credentials_existing_email(self):$/;"	kind:member	line:230
+test_begin_update_credentials_invalid_current	../monafrica/tests/user/test_views.py	/^    def test_begin_update_credentials_invalid_current(self):$/;"	kind:member	line:220
+test_begin_update_credentials_password_change	../monafrica/tests/user/test_views.py	/^    def test_begin_update_credentials_password_change(self, client):$/;"	kind:member	line:263
+test_contact_form	../monafrica/tests/contact/test_views.py	/^    def test_contact_form(self, client):$/;"	kind:member	line:12
+test_contact_page	../monafrica/tests/contact/test_views.py	/^    def test_contact_page(self, client):$/;"	kind:member	line:7
+test_contains_title	../monafrica/tests/page/test_views.py	/^    def test_contains_title(self, client):$/;"	kind:member	line:25
+test_deliver_feedback_email	../monafrica/tests/feedback/test_tasks.py	/^    def test_deliver_feedback_email(self):$/;"	kind:member	line:6
+test_deliver_password_reset_email	../monafrica/tests/user/test_tasks.py	/^    def test_deliver_password_reset_email(self, token):$/;"	kind:member	line:7
+test_deliver_support_email	../monafrica/tests/contact/test_tasks.py	/^    def test_deliver_support_email(self):$/;"	kind:member	line:6
+test_deserialize_token	../monafrica/tests/user/test_models.py	/^    def test_deserialize_token(self, token):$/;"	kind:member	line:9
+test_deserialize_token_tampered	../monafrica/tests/user/test_models.py	/^    def test_deserialize_token_tampered(self, token):$/;"	kind:member	line:14
+test_faq_page	../monafrica/tests/page/test_views.py	/^    def test_faq_page(self, client):$/;"	kind:member	line:20
+test_feedback_form	../monafrica/tests/feedback/test_views.py	/^    def test_feedback_form(self, client):$/;"	kind:member	line:12
+test_feedback_page	../monafrica/tests/feedback/test_views.py	/^    def test_feedback_page(self, client):$/;"	kind:member	line:7
+test_home_page	../monafrica/tests/page/test_views.py	/^    def test_home_page(self, client):$/;"	kind:member	line:5
+test_login	../monafrica/tests/user/test_views.py	/^    def test_login(self):$/;"	kind:member	line:13
+test_login_activity	../monafrica/tests/user/test_views.py	/^    def test_login_activity(self, users):$/;"	kind:member	line:18
+test_login_disable	../monafrica/tests/user/test_views.py	/^    def test_login_disable(self):$/;"	kind:member	line:30
+test_login_fail	../monafrica/tests/user/test_views.py	/^    def test_login_fail(self):$/;"	kind:member	line:37
+test_login_page	../monafrica/tests/user/test_views.py	/^    def test_login_page(self):$/;"	kind:member	line:8
+test_logout	../monafrica/tests/user/test_views.py	/^    def test_logout(self):$/;"	kind:member	line:43
+test_models.py	../monafrica/tests/user/test_models.py	1;"	kind:file	line:1
+test_password_reset	../monafrica/tests/user/test_views.py	/^    def test_password_reset(self, users, token):$/;"	kind:member	line:96
+test_password_reset_as_logged_in	../monafrica/tests/user/test_views.py	/^    def test_password_reset_as_logged_in(self):$/;"	kind:member	line:70
+test_password_reset_empty_token	../monafrica/tests/user/test_views.py	/^    def test_password_reset_empty_token(self):$/;"	kind:member	line:108
+test_password_reset_invalid_token	../monafrica/tests/user/test_views.py	/^    def test_password_reset_invalid_token(self):$/;"	kind:member	line:118
+test_password_reset_page	../monafrica/tests/user/test_views.py	/^    def test_password_reset_page(self):$/;"	kind:member	line:57
+test_privacy_page	../monafrica/tests/page/test_views.py	/^    def test_privacy_page(self, client):$/;"	kind:member	line:15
+test_serialize_token	../monafrica/tests/user/test_models.py	/^    def test_serialize_token(self, token):$/;"	kind:member	line:5
+test_settings_page	../monafrica/tests/user/test_views.py	/^    def test_settings_page(self):$/;"	kind:member	line:204
+test_signup	../monafrica/tests/user/test_views.py	/^    def test_signup(self, users):$/;"	kind:member	line:159
+test_signup_page	../monafrica/tests/user/test_views.py	/^    def test_signup_page(self):$/;"	kind:member	line:130
+test_tasks.py	../monafrica/tests/contact/test_tasks.py	1;"	kind:file	line:1
+test_tasks.py	../monafrica/tests/feedback/test_tasks.py	1;"	kind:file	line:1
+test_tasks.py	../monafrica/tests/user/test_tasks.py	1;"	kind:file	line:1
+test_terms_page	../monafrica/tests/page/test_views.py	/^    def test_terms_page(self, client):$/;"	kind:member	line:10
+test_update_credentials_page	../monafrica/tests/user/test_views.py	/^    def test_update_credentials_page(self):$/;"	kind:member	line:213
+test_views.py	../monafrica/tests/contact/test_views.py	1;"	kind:file	line:1
+test_views.py	../monafrica/tests/feedback/test_views.py	1;"	kind:file	line:1
+test_views.py	../monafrica/tests/page/test_views.py	1;"	kind:file	line:1
+test_views.py	../monafrica/tests/user/test_views.py	1;"	kind:file	line:1
+test_welcome	../monafrica/tests/user/test_views.py	/^    def test_welcome(self, users):$/;"	kind:member	line:176
+test_welcome_page	../monafrica/tests/user/test_views.py	/^    def test_welcome_page(self, users):$/;"	kind:member	line:136
+test_welcome_with_existing_username	../monafrica/tests/user/test_views.py	/^    def test_welcome_with_existing_username(self, users):$/;"	kind:member	line:187
+tests.py	../lib/tests.py	1;"	kind:file	line:1
+text	../monafrica/blueprints/admin/views.py	/^from sqlalchemy import text$/;"	kind:namespace	line:9
+timedelta	../config/settings.py	/^from datetime import timedelta$/;"	kind:namespace	line:1
+timedelta_months	../lib/util_datetime.py	/^def timedelta_months(months, compare_date=None):$/;"	kind:function	line:14
+token	../monafrica/tests/conftest.py	/^def token(db):$/;"	kind:function	line:93
+tzware_datetime	../lib/util_datetime.py	/^def tzware_datetime():$/;"	kind:function	line:5
+tzware_datetime	../lib/util_sqlalchemy.py	/^from lib.util_datetime import tzware_datetime$/;"	kind:namespace	line:6
+update_activity_tracking	../monafrica/blueprints/user/models.py	/^    def update_activity_tracking(self, ip_address):$/;"	kind:member	line:217
+update_credentials	../monafrica/blueprints/user/views.py	/^def update_credentials():$/;"	kind:function	line:155
+updated_on	../lib/util_sqlalchemy.py	/^    updated_on = db.Column(AwareDateTime(),$/;"	kind:variable	line:32
+url_for	../lib/tests.py	/^from flask import url_for$/;"	kind:namespace	line:2
+url_for	../monafrica/tests/contact/test_views.py	/^from flask import url_for$/;"	kind:namespace	line:1
+url_for	../monafrica/tests/feedback/test_views.py	/^from flask import url_for$/;"	kind:namespace	line:1
+url_for	../monafrica/tests/page/test_views.py	/^from flask import url_for$/;"	kind:namespace	line:1
+url_for	../monafrica/tests/user/test_views.py	/^from flask import url_for$/;"	kind:namespace	line:1
+urljoin	../lib/safe_next_url.py	/^    from urllib.parse import urljoin$/;"	kind:namespace	line:4
+urljoin	../lib/safe_next_url.py	/^    from urlparse import urljoin$/;"	kind:namespace	line:2
+user	../monafrica/app.py	/^from monafrica.blueprints.user import user$/;"	kind:namespace	line:9
+user	../monafrica/blueprints/user/__init__.py	/^from monafrica.blueprints.user.views import user$/;"	kind:namespace	line:1
+user	../monafrica/blueprints/user/views.py	/^user = Blueprint('user', __name__, template_folder='templates')$/;"	kind:variable	line:25
+username	../monafrica/blueprints/admin/forms.py	/^    username = StringField(validators=[$/;"	kind:variable	line:29
+username	../monafrica/blueprints/user/forms.py	/^    username = StringField(validators=[$/;"	kind:variable	line:47
+username	../monafrica/blueprints/user/models.py	/^    username = db.Column(db.String(24), unique=True, index=True)$/;"	kind:variable	line:33
+username_message	../monafrica/blueprints/admin/forms.py	/^    username_message = 'Letters, numbers and underscores only please.'$/;"	kind:variable	line:27
+username_message	../monafrica/blueprints/user/forms.py	/^    username_message = 'Letters, numbers and underscores only please.'$/;"	kind:variable	line:45
+users	../cli/commands/cmd_add.py	/^def users():$/;"	kind:function	line:64
+users	../monafrica/blueprints/admin/views.py	/^def users(page):$/;"	kind:function	line:44
+users	../monafrica/tests/conftest.py	/^def users(db):$/;"	kind:function	line:105
+users_bulk_delete	../monafrica/blueprints/admin/views.py	/^def users_bulk_delete():$/;"	kind:function	line:88
+users_edit	../monafrica/blueprints/admin/views.py	/^def users_edit(id):$/;"	kind:function	line:63
+util_datetime.py	../lib/util_datetime.py	1;"	kind:file	line:1
+util_sqlalchemy.py	../lib/util_sqlalchemy.py	1;"	kind:file	line:1
+util_wtforms.py	../lib/util_wtforms.py	1;"	kind:file	line:1
+validations.py	../monafrica/blueprints/user/validations.py	1;"	kind:file	line:1
+version	../setup.py	/^    version='1.0',$/;"	kind:variable	line:5
+views.py	../monafrica/blueprints/admin/views.py	1;"	kind:file	line:1
+views.py	../monafrica/blueprints/contact/views.py	1;"	kind:file	line:1
+views.py	../monafrica/blueprints/feedback/views.py	1;"	kind:file	line:1
+views.py	../monafrica/blueprints/page/views.py	1;"	kind:file	line:1
+views.py	../monafrica/blueprints/user/views.py	1;"	kind:file	line:1
+welcome	../monafrica/blueprints/user/views.py	/^def welcome():$/;"	kind:function	line:130
+wraps	../monafrica/blueprints/user/decorators.py	/^from functools import wraps$/;"	kind:namespace	line:1

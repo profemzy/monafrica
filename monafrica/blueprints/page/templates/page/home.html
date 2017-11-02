@@ -1,0 +1,41 @@
+{% extends 'layouts/app.html' %}
+
+{% block title %}Welcome to Python Ibadan Website{% endblock %}
+{% block meta_description %}Ibadan Python Group.{% endblock %}
+
+{% block body %}
+  <div class="container sm-margin-top">
+    <div class="row text-center lg-margin-bottom">
+      <h1>Python Ibadan Group</h1>
+      <h3 class="text-muted">
+        Building Ib. Tech Ecosystem with Python!
+      </h3>
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-4">
+        <i class="fa fa-fw fa-4x fa-users text-primary"></i>
+        <h2>Networking</h2>
+        <p class="text-muted">Get to hook up with Python Developers in Ibadan and beyond</p>
+        <p>
+          <a href="{{ url_for('user.signup') }}" class="btn btn-default">Sign up</a>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-fw fa-4x fa-laptop text-primary"></i>
+        <h2>Training</h2>
+        <p class="text-muted">Learn Python Programming Language and Web Frameworks(Flask, Django)</p>
+        <p>
+          <a href="{{ url_for('user.signup') }}" class="btn btn-default">Sign up</a>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-fw fa-4x fa-home text-primary"></i>
+        <h2>Meet Ups & Conferences</h2>
+        <p class="text-muted">Opportunity to attend meet ups and conferences periodically.</p>
+        <p>
+          <a href="{{ url_for('user.signup') }}" class="btn btn-default">Sign up</a>
+        </p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

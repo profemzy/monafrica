@@ -1,0 +1,72 @@
+{% extends 'layouts/app.html' %}
+{% import 'macros/form.html' as f with context %}
+
+{% block title %}Sign up for a new account{% endblock %}
+
+{% block body %}
+  <div class="row">
+    <div class="col-md-5">
+      <h2>What are you waiting for?</h2>
+
+      <div class="media md-margin-bottom">
+        <div class="media-left">
+          <i class="fa fa-fw fa-3x fa-users text-primary"></i>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Networking</h4>
+          <span class="text-muted">
+            Get to hook up with Python Developers in Ibadan and beyond
+          </span>
+        </div>
+      </div>
+      <div class="media md-margin-bottom">
+        <div class="media-left">
+          <i class="fa fa-fw fa-3x fa-laptop text-primary"></i>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Training</h4>
+          <span class="text-muted">
+            Learn Python Programming Language and Web Frameworks(Flask, Django)
+          </span>
+        </div>
+      </div>
+      <div class="media md-margin-bottom">
+        <div class="media-left">
+          <i class="fa fa-fw fa-3x fa-home text-primary"></i>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Meet Ups & Conferences</h4>
+          <span class="text-muted">Opportunity to attend meet ups and conferences periodically</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 col-md-push-1 col-md-offset-1 well">
+      {% call f.form_tag('user.signup') %}
+        <legend>Sign up today</legend>
+
+        {% call f.form_group(form.email, css_class='sm-margin-bottom',
+                             autofocus='autofocus',
+                             placeholder='Email address') %}
+        {% endcall %}
+
+        {% call f.form_group(form.password, css_class='sm-margin-bottom') %}
+        {% endcall %}
+
+        <div class="row">
+          <div class="col-md-6">
+            <button type="submit" class="btn btn-primary btn-block">
+              Register
+            </button>
+          </div>
+          <div class="col-md-6">
+            <div class="visible-xs visible-sm sm-margin-top"></div>
+            <a href="{{ url_for('user.login') }}"
+               class="btn btn-default btn-block">
+              Looking to sign in?
+            </a>
+          </div>
+        </div>
+      {% endcall %}
+    </div>
+  </div>
+{% endblock %}
