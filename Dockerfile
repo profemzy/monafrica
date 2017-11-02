@@ -27,4 +27,3 @@ COPY . .
 RUN pip install --editable .
 
 CMD ["/usr/bin/supervisord"]
-CMD gunicorn -b 0.0.0.0:8000 --access-logfile - "monafrica.app:create_app()"

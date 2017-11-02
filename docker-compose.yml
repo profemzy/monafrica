@@ -18,19 +18,10 @@ services:
     ports:
       - '6379:6379'
 
-  website:
+  nginx:
     build: .
-    command: >
-      gunicorn -b 0.0.0.0:8000
-        --access-logfile -
-        --reload
-        "monafrica.app:create_app()"
-    env_file:
-      - '.env'
-    volumes:
-      - '.:/monafrica'
     ports:
-      - '8000:8000'
+      - "80:80"
 
   celery:
     build: .
